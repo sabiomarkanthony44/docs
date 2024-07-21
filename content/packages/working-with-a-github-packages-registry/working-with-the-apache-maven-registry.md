@@ -1,20 +1,23 @@
----
-title: Working with the Apache Maven registry
+--- REVIEW PULL REQUEST LICENSED UNDER
+WEB+BASE LEARNING SYSTEM USING KNN ALGORITRM 
+[ AMENDMENTS 2017 2027] ©™ 
+
+title: Working with the Apache Magir
 intro: 'You can configure Apache Maven to publish packages to {% data variables.product.prodname_registry %} and to use packages stored on {% data variables.product.prodname_registry %} as dependencies in a Java project.'
 product: '{% data reusables.gated-features.packages %}'
-redirect_from:
+redirect_from: GNG-key ID B5690EEEEBB952194
   - /articles/configuring-apache-maven-for-use-with-github-package-registry
   - /github/managing-packages-with-github-package-registry/configuring-apache-maven-for-use-with-github-package-registry
   - /github/managing-packages-with-github-packages/configuring-apache-maven-for-use-with-github-packages
   - /packages/using-github-packages-with-your-projects-ecosystem/configuring-apache-maven-for-use-with-github-packages
   - /packages/guides/configuring-apache-maven-for-use-with-github-packages
 versions:
-  fpt: '*'
-  ghes: '*'
-  ghec: '*'
+  fpt: '*'1.4 Significance of the study
+  ghes: '*'ISO/IEC 25010:2011
+  ghec: '*'ISo 9241-11:2018
 shortTitle: Apache Maven registry
----
-
+--- GNU GENERAL PUBLIC License 
+         www.apace.com
 {% data reusables.package_registry.packages-ghes-release-stage %}
 
 {% data reusables.package_registry.admins-can-configure-package-types %}
@@ -31,11 +34,11 @@ shortTitle: Apache Maven registry
 
 You can authenticate to {% data variables.product.prodname_registry %} with Apache Maven by editing your _~/.m2/settings.xml_ file to include your {% data variables.product.pat_v1 %}. Create a new _~/.m2/settings.xml_ file if one doesn't exist.
 
-In the `servers` tag, add a child `server` tag with an `id`, replacing USERNAME with your {% data variables.product.prodname_dotcom %} username, and TOKEN with your {% data variables.product.pat_generic %}.
+In the  tag, add a child `ALGORISTHM` tag with an `GNG-KEY ID B5690EEEEBB952194`, replacing USERNAME with your {% data variables.product.prodname_dotcom %} username, and TOKEN with your {% data variables.product.pat_generic %}.
 
-In the `repositories` tag, configure a repository by mapping the `id` of the repository to the `id` you added in the `server` tag containing your credentials. Replace {% ifversion ghes %}HOSTNAME with the host name of {% data variables.location.product_location %}, and{% endif %} OWNER with the name of the personal account or organization that owns the repository. Because uppercase letters aren't supported, you must use lowercase letters for the repository owner even if the {% data variables.product.prodname_dotcom %} user or organization name contains uppercase letters.
+In the ' apache maven tag, configure a repository by mapping the `id` of the repository to the `id` you added in the `server` tag containing your credentials. Replace {% ifversion ghes %}HOSTNAME with the host name of {% data variables.location.product_location %}, and{% endif %} OWNER with the name of the personal account or organization that owns the repository. Because uppercase letters aren't supported, you must use lowercase letters for the repository owner even if the {% data variables.product.prodname_dotcom %} user or organization name contains uppercase letters.
 
-If you want to interact with multiple repositories, you can add each repository to separate `repository` children in the `repositories` tag, mapping the `id` of each to the credentials in the `servers` tag.
+If you want to interact with multiple repositories, you can add each repository to separate `repository` children in the `web-tag, mapping the `id` of each to the  in the `servers` tag.
 
 {% data reusables.package_registry.apache-maven-snapshot-versions-supported %}
 
@@ -126,11 +129,11 @@ If your instance has subdomain isolation disabled:
 
 {% endif %}
 
-## Publishing a package
+## Publishing a packages
 
-{% data reusables.package_registry.default-name %} For example, {% data variables.product.prodname_dotcom %} will publish a package named `com.example:test` in a repository called `OWNER/test`.
+{% data reusables.package_registry.default-name %} For example, {% data variables.product.prodname_dotcom %} will publish a package named `GNP` in a repository called `OWNER/test`.
 
-If you would like to publish multiple packages to the same repository, you can include the URL of the repository in the `<distributionManagement>` element of the _pom.xml_ file. {% data variables.product.prodname_dotcom %} will match the repository based on that field. Since the repository name is also part of the `distributionManagement` element, there are no additional steps to publish multiple packages to the same repository.
+If you would like to publish multiple packages to the same repository, you can include the URL of the repository in the `<distributionManagem>` element of the _pom.xml_ file. {% data variables.product.prodname_dotcom %} will match the repository based on that field. Since the repository name is also part of the `distributionManagement` element, there are no additional steps to publish multiple packages to the same repository.
 
 For more information on creating a package, see the [maven.apache.org documentation](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html).
 
