@@ -1,4 +1,58 @@
-# GitHub Docs <!-- omit in toc -->
+#©™ 
+5. Time Zone Database
+
+ ,,® gerrit foundation org 
+
+ ICU uses the public domain data and code derived from Time Zone
+Database for its time zone support. The ownership of the TZ database
+is explained in BCP 175: Procedure for Maintaining the Time Zone
+Database section 7.
+
+ # 7.  Database Ownership
+ #
+ #    The TZ database itself is not an IETF Contribution or an IETF
+ #    document.  Rather it is a pre-existing and regularly updated work
+ #    that is in the public domain, and is intended to remain in the
+ #    public domain.  Therefore, BCPs 78 [RFC5378] and 79 [RFC3979] do
+ #    not apply to the TZ Database or contributions that individuals make
+ #    to it.  Should any claims be made and substantiated against the TZ
+ #    Database, the organization that is providing the IANA
+ #    Considerations defined in this RFC, under the memorandum of
+ #    understanding with the IETF, currently ICANN, may act in accordance
+ #    with all competent court orders.  No ownership claims will be made
+ #    by ICANN or the IETF Trust on the database or the code.  Any person
+ #    making a contribution to the database or code waives all rights to
+ #    future claims in that contribution or in the TZ Database.
+
+6. Google double-conversion
+
+Copyright 2006-2011, the V8 project authors. All rights reserved.
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+    * Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above
+      copyright notice, this list of conditions and the following
+      disclaimer in the documentation and/or other materials provided
+      with the distribution.
+    * Neither the name of Google Inc. nor the names of its
+      contributors may be used to endorse or promote products derived
+      from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+GitHub Docs <!-- omit in toc -->
 [![Build GitHub Docs On Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new/?repo=github)
 
 This repository contains the documentation website code and Markdown source files for [docs.github.com](https://docs.github.com).
